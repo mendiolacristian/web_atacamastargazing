@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>AtacamaStargazing - Nosotros</title>
+        <link rel="icon" href="img/icono/icono.svg">
+        <meta name="description" content="Acerca de Nosotros.">
+
+        <!-- Pre-carga para mejorar el rendimiento -->
+        <link rel="preload" href="css/normalize.css" as="style">
+        <link rel="preload" href="css/styles.css" as="style">
+        <link rel="preload" href="img/nosotros/nosotros-background.webp" as="image">
+
+        <!-- Normaliza el CSS aplicado en distintos navegadores-->
+        <link rel="stylesheet" href="css/normalize.css">
+
+        <!-- Estilos de CSS añadidos -->
+        <link rel="stylesheet" href="css/styles.css">
+
+    </head>
+<body>
+    <header>
+        <nav class="navbar">
+            <a class="navbar__logo" href="index.html">
+                <img class="navbar__logo--img" src="img/icono/icono.svg" alt="icono">
+                <h2 class="navbar__logo--texto">AtacamaStargazing</h2>
+            </a>
+            <div class="navbar__items">
+                <a class="navbar__items--item" href="index.html"><h4 class="no-margin">Inicio</h4></a>
+                <a class="navbar__items--item" href="descargas.html"><h4 class="no-margin">Descargas</h4></a>
+                <a class="navbar__items--item pagina-activa" href="nosotros.html"><h4 class="no-margin pagina-activa">Nosotros</h4></a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <picture>
+            <source class="background" type="image/webp" srcset="img/nosotros/nosotros-background.webp">
+            <source class="background" type="image/jpg" srcset="img/nosotros/nosotros-background.jpg">
+
+            <img loading="lazy" class="background" src="img/nosotros/nosotros-background.jpg" alt="Fondo de Pantalla de Nosotros">
+        </picture>
+        <h1 class="color-blanco">Nuestra Historia <br>&<br>Nuestro Equipo</h1>
+    </main>
+
+    <section class="nuestros-valores"> <!-- Valores de la Empresa -->
+        <section class="contenedor no-margin-top">
+            <h2 class="no-margin">Nuestros valores</h2>
+            <div class="grid__valores">
+                <div class="grid__valores--item b-radius">
+                    <h3>Creemos</h3>
+                    <p>Que cada persona es única e irrepetible, producto de su herencia genética y cultural, por ello el aporte de cada individuo tiene un enorme impacto en el desarrollo y avance de nuestra civilización.</p>
+                </div>
+                <div class="grid__valores--item b-radius">
+                    <h3>Entendemos</h3>
+                    <p>Que somos servidores y que nuestro trabajo es informar, entretener y brindar experiencias memorables; experiencias que tengan un impacto positivo en la vida de quienes nos visitan</p>
+                </div>
+                <div class="grid__valores--item b-radius">
+                    <h3>Practicamos</h3>
+                    <p>El “Buen Vivir andino" procurando que cada acción que tomamos sea buena para nosotros y buena para los demás, al mismo tiempo.</p>
+                </div>
+            </div>
+        </section>
+    </section>
+    <section class="nuestra-historia">
+        
+        <h2>
+            Nuestra Historia
+        </h2>
+        <section class="contenedor">
+            <h3>Aveces las cosas más maravillosas nacen...<br>de un sueño!</h3>
+            <p>Y un día, llegamos a esta tierra mágica, en la cual a cada paso se abren nuevos paisajes llenos de encanto, como de otro mundo... Y al internarnos en sus profundidades, descubrimos mucho más de lo que la primera impresión nos reveló.</p>
+            <p>Después empezamos a maravillarnos con el cielo, al caer la noche y oscurecerse la bóveda celeste, esta se hizo transparente; develando las maravillas de mundos lejanos al nuestro, planetas, estrellas, galaxias con posibilidades de vida y mucho más!</p>
+            <p>De esta forma quedamos prendados de San Pedro de Atacama, su desierto y este cielo que nos robó el corazón.</p>
+            <p>Ahora queremos compartirlo contigo, por ello te esperamos en el Desierto de Atacama, queremos mostrarte lo que hemos descubierto y vivir contigo esta aventura.</p>
+        </section>
+        
+        
+    </section>
+    <section class="nuestro-equipo">
+        <div>
+            <h2>Nuestro Equipo de Trabajo</h2>
+            <div class="nuestro-equipo__grid">
+                <div class="nuestro-equipo__grid--item b-radius">
+                    <picture>
+                        <source class="imagen b-radius" loading="lazy" srcset="img/nosotros/patricia-diaz.webp" type="image/webp">
+                        <img class="imagen b-radius" src="img/nosotros/patricia-diaz.jpg" alt="Foto Patricia Ma. Díaz">
+                    </picture>
+                    <h3>Patricia Ma. Díaz</h3>
+                    <p>(CEO)</p>
+                </div>
+                <div class="nuestro-equipo__grid--item b-radius">
+                    <picture>
+                        <source class="imagen b-radius" loading="lazy" srcset="img/nosotros/alcira-alcalde.webp" type="image/webp">
+                        <img class="imagen b-radius" src="img/nosotros/alcira-alcalde.jpg" alt="Foto Alcira Alcalde">
+                    </picture>
+                    <h3>Alcira M. Alcalde Bueno</h3>
+                    <p>(Directora de Logística)</p>
+                </div>
+                <div class="nuestro-equipo__grid--item b-radius">
+                    <picture>
+                        <source class="imagen b-radius" loading="lazy" srcset="img/nosotros/jasmin-llanos.webp" type="image/webp">
+                        <img class="imagen b-radius" src="img/nosotros/jasmin-llanos.jpg" alt="Foto Jasmin Llanos">
+                    </picture>
+                    <h3>Jasmin Llanos Sparrow</h3>
+                    <p>(Operaciones B2B)</p>
+                </div>
+                <div class="nuestro-equipo__grid--item b-radius">
+                    <picture>
+                        <source class="imagen b-radius" loading="lazy" srcset="img/nosotros/nibaldo-rodriguez.webp" type="image/webp">
+                        <img class="imagen b-radius" src="img/nosotros/nibaldo-rodriguez.jpg" alt="Foto Nibaldo Rodríguez">
+                    </picture>
+                    <h3>Nibaldo Rodríguez</h3>
+                    <p>(Fotógrafo)</p>
+                </div>
+                <div class="nuestro-equipo__grid--item b-radius">
+                    <picture>
+                        <source class="imagen b-radius" loading="lazy" srcset="img/nosotros/sergioluis-mendiola.webp" type="image/webp">
+                        <img class="imagen b-radius" src="img/nosotros/sergioluis-mendiola.jpg" alt="Foto Sergioluis Mendiola">
+                    </picture>
+                    <h3>Sergioluis A. Mendiola</h3>
+                    <p>(Guía)</p>
+                </div>
+                <div class="nuestro-equipo__grid--item b-radius">
+                    <picture>
+                        <source class="imagen b-radius" loading="lazy" srcset="img/nosotros/david-mendiola.webp" type="image/webp">
+                        <img class="imagen b-radius" src="img/nosotros/david-mendiola.jpg" alt="Foto David Mendiola">
+                    </picture>
+                    <h3>David F. Mendiola</h3>
+                    <p>(Guía)</p>
+                </div>
+                <div class="nuestro-equipo__grid--item b-radius">
+                    <picture>
+                        <source class="imagen b-radius" loading="lazy" srcset="img/nosotros/cristian-mendiola.webp" type="image/webp">
+                        <img class="imagen b-radius" src="img/nosotros/cristian-mendiola.jpg" alt="Foto Cristian Mendiola">
+                    </picture>
+                    <h3>Cristian M. Mendiola</h3>
+                    <p>(Guía)</p>
+                </div>
+                <div class="nuestro-equipo__grid--item b-radius">
+                    <picture>
+                        <source class="imagen b-radius" loading="lazy" srcset="img/nosotros/pablo-madariaga.webp" type="image/webp">
+                        <img class="imagen b-radius" src="img/nosotros/pablo-madariaga.jpg" alt="Foto Pablo Madariaga">
+                    </picture>
+                    <h3>Pablo Madariaga</h3>
+                    <p>(Conductor)</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <footer>
+        <div class="Copyright">
+            <p>&#169 AtacamaStargazing<br>Todos los derechos reservados 2022.</p>
+        </div>
+    </footer>      
+    <a href="https://wa.me/56935880094/?text=Hola,%20quisiera%20reservar." class="float" target="_blank">
+        <img class="my-float" src="img/icono/whatsapp-brands.svg" alt="Icono whatsapp">
+    </a>
+
+</body>
+
+</html>
